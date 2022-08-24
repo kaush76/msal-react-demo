@@ -44,7 +44,7 @@ const Pages = () => {
                 }
             })
         }
-    }, []);
+    }, [instance, isAuthenticated]);
 
     return (
         <Routes>
