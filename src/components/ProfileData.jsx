@@ -14,6 +14,7 @@ export const ProfileData = ({ graphData }) => {
     return (
         <List className="profileData">
             <NameListItem name={graphData.displayName} />
+            <NameListItem name={graphData.userPrincipalName} />
             <JobTitleListItem jobTitle={graphData.jobTitle} />
             <MailListItem mail={graphData.mail} />
             <PhoneListItem phone={graphData.businessPhones[0]} />
